@@ -19,59 +19,39 @@
 
      <title>VESSEY SYSTEM</title>
     <!-- Custom CSS -->
-    <link href="../css/vessel.css" rel="stylesheet">
+    <link href="css/vessel.css" rel="stylesheet">
      <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Script to Activate the Carousel -->
-    <script type="../css/view.css"></script>
-
-
-    
+    <script type="css/view.css"></script>
 
 </head>
-
 <body>
 
-     <?php
-        include("menu.php");
-    ?>
-
-    <div class="container">
+<?php include("menu.php");    ?>
+    <div class="formoutput">
         <div class="transbox">                            
-                <div class="abc">
-                    <center><h2>
-                        ยินดีต้อนรับเข้าสู่ระบบ
-                    </h2>
+            <div class="abc">
+                <center><h2>ยินดีต้อนรับเข้าสู่ระบบ</h2>
                     <hr >
                     <h1>VESSEL SYSTEM</h1>
                     <hr>
-              
- 
-
+                </center>
             </div>
         </div>
     </div>
 
     <!-- /.container -->
 
-
     <footer>
         <div class="container">
-                <div class="col-lg-12 text-center">
-                     <p>&copy;2018 S KRICHPHOL KHONSONG (1997) CO.,LTD.</p>
-                </div>
+            <div class="footer">
+                <p>&copy;2018 S KRICHPHOL KHONSONG (1997) CO.,LTD.</p>
+            </div>
         </div>
-
-
     </footer>
 
-   
-
-
-</script>
-
 </body>
-
 </html>

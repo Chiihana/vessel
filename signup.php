@@ -19,13 +19,13 @@
 
      <title>VESSEY SYSTEM</title>
     <!-- Custom CSS -->
-    <link href="../css/vessel.css" rel="stylesheet">
+    <link href="css/vessel.css" rel="stylesheet">
      <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Script to Activate the Carousel -->
-    <script type="../css/view.css"></script>
+    <script type="css/view.css"></script>
 </head>
 
 <body>
@@ -33,7 +33,6 @@
      <?php
         include("menu.php");
     ?>
-     <div class="container">
                     <div id="output">
                         <center> <p><b><div class="title">SIGNUP</b></p></center></br>
                                 <div class="content1">
@@ -70,21 +69,17 @@
                                     </div>   
                                 </form>
                             </div>
-                        </div>
 
 
+    
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+              <div class="footer">
                      <p>&copy;2018 S KRICHPHOL KHONSONG (1997) CO.,LTD.</p>
                 </div>
-            </div>
         </div>
 
-
     </footer>
-
    
 
 

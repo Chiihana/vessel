@@ -12,9 +12,9 @@ function myFunction() {
    <div class="icon-bar">
         <a class="active" href="index.php"><i class="fa fa-home"></i></a> </div>
   <a href="#HOME" class="active">ASSEL SYSTEM</a>
-                        <a href="comein.php">การจัดการด้านขาเข้า</a>
+                        <a href="comeinmain.php">การจัดการด้านขาเข้า</a>
+                        <a href="report.php">การจัดการข้อมูลขาออก</a>
                         <a href="receive.php">ออกใบเสร็จ</a>
-                        <a href="report.php">ออกรีพอร์ต</a>
                         <a href="searching.php">ค้นหาข้อมูล</a>
                         <a href="about.php">เกี่ยวกับ</a>
     <a href="signup.php" class="barright"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
@@ -24,11 +24,6 @@ function myFunction() {
 
 
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #339999;
@@ -108,57 +103,6 @@ body {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-}
-body {
-  background: #fff;
-}
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 75%;
-  }
-}
-@media (min-width: 992px) {
-    width: 85%;
-  }
-}
-@media (min-width: width: 1120px) {
-  .container {
-    width: 90%;
-  }
-}
-
-div.transbox {
-  margin: 1px;
-  background-color: #99FF99;
-  border: 1px;
-  opacity: 0.7;
-  filter: alpha(opacity=70); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-div.abc{
-  padding-right: 15px;
-  padding-left: 15px;
-}
-#output{
-    max-width: 480px;
-    margin: 10px auto;
-    margin-top: 100px;
-    background-color: #00666a;
-    padding: 10px;
-    box-shadow: 0px 0px 10px #cccccc;
-
-    border-radius: 10px;
 }
 
 </style>

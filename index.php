@@ -17,28 +17,18 @@
    
     <title>VESSEY SYSTEM</title>
     <!-- Custom CSS -->
-    <link href="../css/vessel.css" rel="stylesheet">
+    <link href="css/vessel.css" rel="stylesheet">
      <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Script to Activate the Carousel -->
-    <script type="../css/bootstrap.css"></script>
+    <script type="css/bootstrap.css"></script>
      <script type="text/javascript">
         $(document).ready(function() {
             $("#ReceivedControlNumber").focus();
         });
     
-    </script>
-     <script type="text/javascript">
-     function deleletconfig(){
-        var del=confirm("ต้องการลบข้อมูลนี้ใช่หรือไม่?");
-            if (del==true){
-            }else{
-                alert("ข้อมูลยังไม่ถูกลบจากระบบ")
-            }
-        return del;
-        }
     </script>
 
     
@@ -49,7 +39,7 @@
      <?php
         include("menu.php");
     ?>
-    <div class="container">
+    <div class="formoutput">
         <div class="transbox">
                                            
                 
@@ -57,9 +47,8 @@
                  <center><h2>
                         ยินดีต้อนรับเข้าสู่ระบบ
                     </h2>
-                    <hr >
                     <h1>VESSEL SYSTEM</h1>
-                    <hr></center>
+                    </center>
                    </div>
             </div>
         </div>
@@ -68,11 +57,9 @@
 
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+        <div class="footer">
                      <p>&copy;2018 S KRICHPHOL KHONSONG (1997) CO.,LTD.</p>
-                </div>
+               
             </div>
      
 

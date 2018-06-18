@@ -10,19 +10,20 @@
                                 </td>
                             </tr>
 
-<?php include("controller/connect.php");
+<?php include("controller/conn.php");
 if (isset($_GET['id'])) {
 $up = $_GET['id'];
 //SQL query for deletion.
 }
-$query = mysql_query("SELECT * FROM uploadfile order by fileID desc", $link); // SQL query to fetch data to display in menu.
-while ($row = mysql_fetch_array($query)) { ?>
+$query = "SELECT * FROM uploadfile order by fileID desc"; // SQL query to fetch data to display in menu.
+$db_query = $db->query($query);
+while ($row = $db_query->fetchall()) { ?>
                             <tr>
                                 <td>
                                     <?php echo $row["fileID"]; ?>
                                 </td>
                                 <td>
-                                 <?php echo "$row["fileID"]<a href=\"readclis.php?id={$row['fileID']}\">" ?>
+                               
                                 </td>
                               
                                 <td>
